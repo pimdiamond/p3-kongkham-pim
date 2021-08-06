@@ -1,5 +1,10 @@
 body {
     background-image: url("dist/1.jpeg");
     text-align: center;
+    margin: 11%;
+}
+
+footer {
+    padding-top: 12%;
 }
 

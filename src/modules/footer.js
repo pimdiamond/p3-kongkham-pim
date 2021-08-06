@@ -5,7 +5,7 @@ class Footer {
     }
 }
 
-export const footer = new Footer('By Pimlada Kongkham');
+export const footer = new Footer('Created By Pimlada Kongkham');
 
 
 

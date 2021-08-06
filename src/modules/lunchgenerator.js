@@ -32,4 +32,4 @@ class LunchGenerator {
     }
 }
 
-export const lunch = new LunchGenerator('By Pimlada Kongkham. Thank you!');
+export const lunch = new LunchGenerator('Why wait!');

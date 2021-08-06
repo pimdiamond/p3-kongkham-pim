@@ -7,7 +7,7 @@ class Header {
     }
 }
 
-export const header = new Header('Lunch Generator', 'Enjoy your lunch!');
+export const header = new Header('What is your favorite lunch?', 'Do you like Greek food?');
 
 
 
