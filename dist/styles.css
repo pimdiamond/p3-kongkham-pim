@@ -1,17 +1,21 @@
 body {
-    background-image: url("dist/1.jpeg");
+    background-image: url("https://cdn.internationalliving.com/wp-content/uploads/2021/02/Greece-Lunch.jpg");
     text-align: center;
-    margin: 8%;
+    margin: 8% 0 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
 }
 
 footer {
-    padding-top: 12%;
+    padding-top: 5%;
 }
 
 button#random {
 	width: 20%;
-	margin: 4% auto 0 auto;
-  padding: 2% 1%;
+	margin: 2% auto 0 auto;
+  padding: 1% 1%;
 	/* text-align: center;
 	text-transform: uppercase; */
 	font-weight: bold;
