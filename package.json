@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pimdiamond/p3-kongkham-pim/issues"
   },
-  "homepage": "https://github.com/pimdiamond/p3-kongkham-pim#readme"
+  "homepage": "https://github.com/pimdiamond/p3-kongkham-pim#readme",
+  "devDependencies": {
+    "webpack": "^5.48.0"
+  }
 }
