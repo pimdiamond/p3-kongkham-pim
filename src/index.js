@@ -7,7 +7,7 @@ class App {
 
     constructor() {
         this.renderTemplate();
-        // lunch.randomizeLunches();
+        lunch.randomizeLunches();
     }
     
     renderTemplate() {
@@ -16,6 +16,8 @@ class App {
       <h1>${header.title}</h1>
       <h2>${header.subtitle}</h2>
       <p>${lunch.menu}</p>
+      <button id="random">Let's Reveal!</button>
+      <p id="randomizeLunches"></p>
       <footer>${footer.footer}</footer>
 `;
 

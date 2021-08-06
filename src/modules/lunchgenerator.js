@@ -19,7 +19,7 @@ class LunchGenerator {
           ];
          document.getElementById("randomizeLunches").innerHTML = menu[0];
          
-         function LunchGenerator() {
+         function random() {
            for (let i = menu.length -1; i > 0; i--) {
              let j = Math.floor(Math.random() * i)
              let k = menu[i]
@@ -28,8 +28,8 @@ class LunchGenerator {
            }
            document.getElementById("randomizeLunches").innerHTML = menu[0];
          }
-
+        document.getElementById('random').addEventListener('click', random);
     }
 }
 
-export const lunch = new LunchGenerator('By Pimlada Kongkham');
+export const lunch = new LunchGenerator('By Pimlada Kongkham. Thank you!');
