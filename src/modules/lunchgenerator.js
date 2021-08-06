@@ -19,15 +19,15 @@ class LunchGenerator {
           ];
          document.getElementById("randomizeLunches").innerHTML = menu[0];
          
-        //  function LunchGenerator() {
-        //    for (let i = menu.length -1; i > 0; i--) {
-        //      let j = Math.floor(Math.random() * i)
-        //      let k = menu[i]
-        //      menu[i] = menu[j]
-        //      menu[j] = k
-        //    }
-        //    document.getElementById("randomizeLunches").innerHTML = menu[0];
-        //  }
+         function LunchGenerator() {
+           for (let i = menu.length -1; i > 0; i--) {
+             let j = Math.floor(Math.random() * i)
+             let k = menu[i]
+             menu[i] = menu[j]
+             menu[j] = k
+           }
+           document.getElementById("randomizeLunches").innerHTML = menu[0];
+         }
 
     }
 }
